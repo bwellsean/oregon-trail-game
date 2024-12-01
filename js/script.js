@@ -325,6 +325,10 @@ function updateStats() {
     }
   });
 
+  function updateTrailProgress() {
+    
+  }
+
   $(".wagonMembers").html(nameString);
 
   var foodString = "";

@@ -45,7 +45,7 @@ ul {
   border-right-style: dotted;
   border-bottom-style: dashed;
   border-color: #00C100;
-  border-size: 3px;
+  border: 3px;
   height: auto;
   min-height: 524px;
 }
@@ -101,7 +101,7 @@ button {
   margin-top: 15px;
 }
 
-.btn:hover, {
+.btn:hover {
   background-color: #0076ff;
   color: white;
 }
@@ -156,4 +156,11 @@ a:hover {
 
 #foodZero, #medicineZero {
   color: red;
+}
+
+.progress {
+  background: #2ecc71;
+  height: 100%;
+  transition: width 0.5s ease-in-out;
+  width: 0%;
 }
